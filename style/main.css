@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Nunito+Sans');
+
+
+* {
+    font-family: 'Nunito Sans', 'Helvetica', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Amiri', 'Times New Roman', serif;
+}
+
+
+.iconic:hover {
+    fill: #7DCBFF;
+}
+
+
+
+/*I was going to use a third color in my color scheme but I found that it looked perfectly good like this/with white instead. I hope that's alright.*/
+
+#bootstrap-override .navbar-light {
+    background-color: #FFE870;
+}
+
+#bootstrap-override .jumbotron-dark {
+    color: white;
+    background-color: #7DCBFF;
+    
+}
+
+#bootstrap-override .jumbotron-light {
+    color: #7DCBFF;
+    background-color: white;
+}
+
+
+#bootstrap-override .card {
+    background-color: #7DCBFF;
+}
